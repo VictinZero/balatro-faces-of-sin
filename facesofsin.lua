@@ -1,6 +1,7 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Faces of Sin
 --- MOD_ID: fos
+--- PREFIX: fos
 --- MOD_AUTHOR: [TiltedHat, Victin]
 --- MOD_DESCRIPTION: Texture mod. Art by TiltedHat. Code by Victin.
 --- LOADER_VERSION_GEQ: 1.0.0
@@ -68,10 +69,11 @@ SMODS.DeckSkin{
 }
 
 SMODS.Atlas{  
-    key = 'modicon',
+    key = 'fos_modicon',
     px = 32,
     py = 32,
     path = 'fos_icon.png',
+    prefix_config = {key = false},
 }
 
 sendDebugMessage("FacesOfSin :: Loaded Textures")
