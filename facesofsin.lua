@@ -1,17 +1,12 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Faces of Sin
 --- MOD_ID: fos
---- MOD_AUTHOR: [TitledHat, Victin]
+--- MOD_AUTHOR: [TiltedHat, Victin]
 --- MOD_DESCRIPTION: Texture mod
 --- LOADER_VERSION_GEQ: 1.0.0
 --- VERSION: 1.0.0
 --- BADGE_COLOR: FF4CA1
 
-----------------------------------------------
-------------MOD CODE -------------------------
-----------------------------------------------
-
--- Register the atli
 SMODS.Atlas {  
     key = 'cards_1',
     px = 71,
